@@ -8,7 +8,7 @@ $AWS_ACCOUNT_ID = aws sts get-caller-identity --profile default --query "Account
 $CODEPIPELINE_BUCKET="$STACK_NAME-$REGION-codepipeline-$AWS_ACCOUNT_ID"
 
 # Deploys static resources
-echo -e "\n\n=========== Deploying setup.yml ==========="
+echo  "\n\n=========== Deploying setup.yml ==========="
 aws cloudformation deploy `
 --region $REGION `
 --profile $CLI_PROFILE `

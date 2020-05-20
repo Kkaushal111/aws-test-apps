@@ -12,9 +12,9 @@ phases:
         commands:
             - npm run build
     artifacts:
-    files:
-        - start-service.sh
-        - stop-service.sh	
-        - package.json    
-        - appspec.yml
-        - 'build/**/*'
+        files:
+            - start-service.sh
+            - stop-service.sh	
+            - package.json    
+            - appspec.yml
+            - 'build/**/*'
